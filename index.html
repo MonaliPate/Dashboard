@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <style>
+        .navbar { border-radius:0; }
+    </style>
+
+      <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+    <script src="app.js"></script>
+      <script src="controller.js"></script>
+</head>
+<body ng-app="routerApp">
+
+    <!-- NAVIGATION -->
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" ui-sref="#">AngularUI Router</a>
+    </div>
+    <ul class="nav navbar-nav">
+        <li><a ui-sref="product">Product</a></li>
+        <li><a ui-sref="brand">Brand</a></li>
+          <li><a ui-sref="category">Category</a></li>
+    </ul>
+</nav>
+
+<div ng-controller="summaryController">
+
+    <div class="container">
+
+    <div ui-view></div>
+
+</div>
+
+    </div>
+
+</body>
+</html>
