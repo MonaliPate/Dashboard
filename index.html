@@ -2,39 +2,59 @@
 <html>
 <head>
 
-     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ng-grid/2.0.11/ng-grid.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <style>
-        .navbar { border-radius:0; }
+
+        .gridStyle {
+    border: 1px solid rgb(212,212,212);
+    width: 600px;
+    height: 300px;
+}
     </style>
 
-      <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
-    <script src="app.js"></script>
-      <script src="controller.js"></script>
+
 </head>
 <body ng-app="routerApp">
 
     <!-- NAVIGATION -->
-<nav class="navbar navbar-inverse" role="navigation">
-    <div class="navbar-header">
-        <a class="navbar-brand" ui-sref="#">AngularUI Router</a>
-    </div>
-    <ul class="nav navbar-nav">
+
+
+<div class="container">
+    <div class="row">
+
+    <div class="col-sm-4">
+
+
+    <ul class="">
         <li><a ui-sref="product">Product</a></li>
         <li><a ui-sref="brand">Brand</a></li>
-          <li><a ui-sref="category">Category</a></li>
+        <li><a ui-sref="category">Category</a></li>
+        <li><a ui-sref="recentpurchase">Recent purchase</a></li>
     </ul>
-</nav>
 
-<div ng-controller="summaryController">
-
-    <div class="container">
-
-    <div ui-view></div>
-
-</div>
 
     </div>
+    <div class="col-sm-8">
+
+         <div ui-view></div>
+    </div>
+    </div>
+
+
+    </div>
+
+  <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ng-grid/2.0.11/ng-grid.min.js"></script>
+    <script src="app.js"></script>
+    <script src="controller.js"></script>
+
 
 </body>
 </html>

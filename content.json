@@ -1,0 +1,122 @@
+{
+	"products": [{
+			"Product_Id": 1,
+			"product_Type": "Two-wheeler",
+			"Product_Name": "Scooty",
+			"Brand": "TVS",
+			"Price": "39,950"
+		}, {
+			"Product_Id": 2,
+			"product_Type": "Two-wheeler",
+			"Product_Name": "Victor",
+			"Brand": "TVS",
+			"Price": "49,825"
+		}, {
+			"Product_Id": 3,
+			"product_Type": "Two-wheeler",
+			"Product_Name": "Pulsar220",
+			"Brand": "Bajaj",
+			"Price": "87,466"
+		}, {
+			"Product_Id": 4,
+			"product_Type": "Two-wheeler",
+			"Product_Name": "Unicorn",
+			"Brand": "Honda",
+			"Price": "75000"
+		}, {
+			"Product_Id": 5,
+			"product_Type": "Four-wheeler",
+			"Product_Name": "City",
+			"Brand": "Honda",
+			"Price": "900000"
+		}, {
+			"Product_Id": 6,
+			"product_Type": "Four-wheeler",
+			"Product_Name": "S6",
+			"Brand": "Audi",
+			"Price": "9525000"
+		}, {
+			"Product_Id": 7,
+			"product_Type": "Four-wheeler",
+			"Product_Name": "S8",
+			"Brand": "Audi",
+			"Price": "14950000"
+		}, {
+			"Product_Id": 8,
+			"product_Type": "Four-wheeler",
+			"Product_Name": "F25",
+			"Brand": "BMW",
+			"Price": "9850000"
+		}, {
+			"Product_Id": 9,
+			"product_Type": "Four-wheeler",
+			"Product_Name": "i8",
+			"Brand": "BMW",
+			"Price": "7850000"
+		}, {
+			"Product_Id": 10,
+			"product_Type": "Two-wheeler",
+			"Product_Name": "S1000RR",
+			"Brand": "BMW",
+			"Price": "1500000"
+		}],
+
+
+	"categories": [{
+		"Category_Id": "cid_001",
+		"Category_Name": "Bike"
+	}, {
+		"Category_Id": "cid_002",
+		"Category_Name": "SportsBike"
+	}, {
+		"Category_Id": "cid_003",
+		"Category_Name": "cars"
+	}, {
+		"Category_Id": "cid_004",
+		"Category_Name": "Luxry Car"
+	}],
+
+	"brands": [{
+			"Brand_Name": "BMW",
+			"Brand_Items": "S1000RR",
+			"Brand_Details": "Good Product"
+		}, {
+			"Brand_Name": "BMW",
+			"Brand_Items": "i8",
+			"Brand_Details": "Good Product"
+		}, {
+			"Brand_Name": "Bajaj",
+			"Brand_Items": "F25",
+			"Brand_Details": "Good Product"
+		}, {
+			"Brand_Name": "Audi",
+			"Brand_Items": "S8",
+			"Brand_Details": "Good Product"
+		}, {
+			"Brand_Name": "Honda",
+			"Brand_Items": "City",
+			"Brand_Details": "Good Product"
+		}, {
+			"Brand_Name": "Honda",
+			"Brand_Items": "Unicorn",
+			"Brand_Details": "Good Product"
+		}, {
+			"Brand_Name": "Bajaj",
+			"Brand_Items": "Pulsar220",
+			"Brand_Details": "Good Product"
+		}, {
+			"Brand_Name": "Victor",
+			"Brand_Items": "TVS",
+			"Brand_Details": "Good Product"
+		}, {
+			"Brand_Name": "TVS",
+			"Brand_Items": "Scooty",
+			"Brand_Details": "Good Product"
+		}],
+
+    "recent_purchase": [{
+			"Product_Id": "BMW",
+			"Product_Name": "S1000RR",
+			"Product_Price": "Good Product",
+		}]
+}

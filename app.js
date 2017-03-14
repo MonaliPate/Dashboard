@@ -1,4 +1,4 @@
-var app=angular.module("routerApp",['ui.router']);
+var app=angular.module("routerApp",['ui.router','ngGrid']);
 
 app.config(function($stateProvider,$urlRouterProvider){
 
@@ -8,17 +8,27 @@ app.config(function($stateProvider,$urlRouterProvider){
 
         .state('product', {
             url: '/product',
-            templateUrl: 'partials/product.html'
+            templateUrl: 'partials/product.html',
+            controller:"summaryController"
         })
 
 
         .state('brand', {
           url: '/product',
-            templateUrl: 'partials/brand.html'
+            templateUrl: 'partials/brand.html',
+         controller:"summaryController"
         })
            .state('category', {
             url: '/category',
-            templateUrl: 'partials/category.html'
+            templateUrl: 'partials/category.html',
+         controller:"summaryController"
+
+        })
+        .state('recentpurchase', {
+            url: '/recentpurchase',
+            templateUrl: 'partials/recentpurchase.html',
+         controller:"summaryController"
+
         });
 
 });
